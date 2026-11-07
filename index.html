@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mongolian Globle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Нууц газрыг олоорой!</h1>
+
+  <div class="modes">
+    <button class="mode-btn active" data-mode="aimag">Аймаг</button>
+    <button class="mode-btn" data-mode="sum">Сум</button>
+  </div>
+
+  <svg id="map"></svg>
+
+  <div class="guess-box">
+    <input id="guess-input" list="names" placeholder="Аймаг, сумын нэр бичнэ үү" autocomplete="off" />
+    <datalist id="names"></datalist>
+    <button id="guess-btn">Таах</button>
+  </div>
+
+  <p id="message" class="message"></p>
+
+  <ul id="guess-list"></ul>
+
+  <button id="new-game" class="new-game">Шинээр тоглох</button>
+
+  <p class="source">
+    Газрын зураг: Үндэсний Статистикийн Хороо, OCHA (geoBoundaries), CC BY 3.0 IGO
+  </p>
+
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
