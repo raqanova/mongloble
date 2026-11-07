@@ -6,7 +6,7 @@
 
 Дэлхийн улсуудаар тоглодог [Globle](https://globle-game.com) тоглоомоос санаа авч, Монголын газрын зураг дээр хийсэн.
 
-👉 **Тоглох:** https://ТАНЫ-НЭР.github.io/mongloble
+👉 **Тоглох:** https://raqanova.github.io/mongloble
 
 ---
 
